@@ -1,0 +1,157 @@
+.containerHeader {
+    background: rgba(27, 4, 170, 0.7);
+
+    position: fixed;
+    z-index: 150;
+    width: calc(100% - 75px);
+    max-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 50px;
+    padding-right: 25px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.logoHeader {
+    width: 261px;
+}
+
+.menuTextHeader {
+    font-family: "Montserrat";
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 19px;
+    color: #fff!important;
+}
+
+.divMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.iconsDivMenu{
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: 35px;
+}
+
+.marginRight {
+    margin-right: 15px;
+}
+
+.sizeIcon {
+    font-size: 22px!important;
+}
+
+
+.menuOption {
+    font-size: 22px!important;
+    color: black;
+}
+
+.menuMobile {
+    display: none;
+}
+
+.Icon-Menu {
+    margin-left: -20px!important;
+}
+
+.Icon-Menu-Right {
+    margin-right: -20px!important;
+}
+
+.menuTextHeaderMobile {
+    font-family: "Montserrat";
+    color: black;
+    font-size: 15px!important;
+}
+
+.LinkNative {
+  text-decoration: none!important;
+  color: white!important;
+}
+
+.LinkNativeMenu {
+  text-decoration: none!important;
+  color: black!important;
+}
+
+@media screen and (min-width: 2560px) {
+    .sizeIcon {
+        font-size: 35px!important;
+    }
+    .logoHeader {
+        width: 350px;
+    }
+
+    .menuTextHeader {
+        margin-right: 35px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1024px) {
+    .logoHeader {
+        width: 220px;
+    }
+    .iconsDivMenu{
+        margin-left: 15px;
+    }
+    .menuTextHeader {
+        font-size: 16px;
+    }
+    .marginRight {
+        margin-right: 12px;
+    }
+
+    .sizeIcon {
+        font-size: 19px!important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .menuMobile {
+        display: flex;
+    }
+    .divMenu {
+        display: none;
+    }
+    .sizeIcon {
+        font-size: 30px!important;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .containerHeader {
+        width: calc(100% - 35px);
+        padding-left: 20px;
+        padding-right: 15px;
+
+    }
+
+    .logoHeader {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    .logoHeader {
+        width: 150px;
+    }
+
+}

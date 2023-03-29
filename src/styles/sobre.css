@@ -1,0 +1,125 @@
+.containerSobreSection {
+    background-image: url('../img/base2.svg');
+    /*background-repeat: round;*/
+    /*background-size: calc(100%) auto;*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    padding-top: 250px;
+}
+
+.titleSectionSobre {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 35px;
+    color: #fff!important;
+    margin-top: -20px;
+}
+
+.divFotoRaifran {
+    display: flex;
+}
+
+.fotoRaifran {
+    width: 448px;
+}
+
+.divResumo {
+    max-width: 45%;
+}
+
+.resumo {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff!important;
+    text-align: left;
+}
+
+.content {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 1336px) {
+    .containerSobreSection {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .containerSobreSection {
+        height: 85vh;
+    }
+    .titleSectionSobre {
+        font-size: 30px;
+    }
+    .resumo {
+        font-size: 15px;
+    }
+    .fotoRaifran {
+        width: 325px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .containerSobreSection {
+        height: 75vh;
+    }
+
+    .divResumo {
+        max-width: 80%;
+    }
+
+    .divFotoRaifran {
+        display: none;
+    }
+
+    .content {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .containerSobreSection {
+        height: 105vh;
+        padding-top: 150px;
+    }
+    .titleSectionSobre {
+        font-size: 26px;
+    }
+    .resumo {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .containerSobreSection {
+        height: 100vh;
+        padding-top: 120px;
+    }
+    .titleSectionSobre {
+        font-size: 26px;
+    }
+    .resumo {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .containerSobreSection {
+        height: 100vh;
+        padding-top: 100px;
+    }
+    .titleSectionSobre {
+        font-size: 24px;
+    }
+    .resumo {
+        font-size: 13px;
+    }
+}

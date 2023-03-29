@@ -1,0 +1,145 @@
+
+.containerHomeSection {
+    background-image: url('../img/base.svg');
+    /*background-repeat: round;*/
+    /*background-size: calc(100%) auto;*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 88vh;
+    flex-direction: column;
+    padding-top: 250px;
+}
+
+.textMain {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 65px;
+    color: #fff!important;
+}
+
+.linhaDivide {
+    margin-top: -40px;
+    width: 280px;
+}
+
+.textFuncao {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff!important;
+    margin-top: 5px;
+}
+
+.divFuncoes{
+    margin-top: 77px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.highlightFuncoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+
+.iconFuncao {
+    color: white;
+    font-size: 25px!important;
+    margin-right: 25px;
+    margin-top: -10px;
+}
+
+@media screen and (min-width: 2560px) {
+    .containerHomeSection {
+        height: 105vh;
+    }
+    .iconFuncao {
+        font-size: 35px!important;
+    }
+    .textMain {
+        margin-top: 200px;
+        font-size: 85px;
+    }
+
+    .linhaDivide {
+        margin-top: -65px;
+        width: 400px;
+    }
+    .textFuncao {
+        margin-top: 15px;
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 2560px) {
+    .containerHomeSection {
+        height: 105vh;
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+    .containerHomeSection {
+        height: 97vh;
+    }
+    .textMain {
+        font-size: 55px;
+    }
+
+    .linhaDivide {
+        width: 250px;
+    }
+
+    .textFuncao {
+        font-size: 22px;
+    }
+}
+
+
+/*@media screen and (max-width: 1024px) {}*/
+
+/*@media screen and (max-width: 768px){}*/
+
+@media screen and (max-width: 425px){
+    .containerHomeSection {
+        padding-top: 205px!important;
+    }
+
+    .textMain {
+        font-size: 40px;
+    }
+
+    .linhaDivide {
+        width: 185px;
+        margin-top: -22px;
+    }
+
+    .textFuncao {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    .textMain {
+        font-size: 35px;
+    }
+
+    .linhaDivide {
+        width: 160px;
+        margin-top: -20px;
+    }
+
+    .textFuncao {
+        font-size: 15px;
+    }
+
+
+}

@@ -12,24 +12,24 @@ export default function SobreSection() {
         </div>
         <div className='divResumo'>
           <h2 className='resumo'>
-            Programador e desenvolvedor há 4 anos ativo no mercado. Tive um interesse em aprender como as coisas
-            funcionavam por trás das cores e elementos bonitos que apareciam na tela quando iniciei a carreira em 2018
-            onde aprendi conceitos básicos de programação utilizando linguagem C++ e junto com conhecimento eletrônica
-            consegui prototipar projetos desenvolvidos com Arduino.
+            Sou desenvolvedor há 5 anos ativo no mercado. Minha carreira iniciou-se a partir do interesse em saber como
+            funcionavam as cores e elementos bonitos que apareciam na tela de um celular ou computador assim fui atrás de
+            começar pequenas investidas como o curso que fiz em 2018, nele aprendi conceitos básicos de programação
+            utilizando linguagem C++ e conhecimentos em eletrônica consegui prototipar projetos desenvolvidos com Arduino.
             <br />
             <br />
-            Já no desenvolvimento web comecei no final do ano de 2018 aprendendo python e django, e junto com o estágio
-            em 2019 consegui diversos conhecimentos práticos participando no desenvolvimento de várias soluções e
+            No desenvolvimento web iniciei no final do ano de 2018 aprendendo Python e Django, juntamente com o estágio
+            em 2019 consegui diversos conhecimentos práticos, participando do desenvolvimento de várias soluções e
             durante todo este período de 2019 até hoje trabalho com essa stack no desenvolvimento web.
             <br />
             <br />
-            No Devops iniciei em 2020 onde fiz alguns cursos rápidos e logo em seguida iniciei a prática e hoje trabalho
+            No Devops iniciei em 2020 onde fiz alguns cursos rápidos e logo em seguida iniciei a prática. Hoje trabalho
             com servidores utilizando infraestruturas como AWS, Digital Ocean, Ovh, Linode. Aplicando conhecimentos para
             instalação, migração e manutenção com utilização do Zabbix.
             <br />
             <br />
-            E desenvolvimento Mobile com inicio em 2022, estudei react native e um pouco de UI para aplicativos para
-            facilitar o desenvolvimento das minhas aplicações.
+            Com a área Mobile iniciei em 2022, estudei React Native e fiz cursos introdutórios de UI/UX para aplicativos
+            facilitando o desenvolvimento das minhas aplicações.
             <br />
             <br />
             Atualmente trabalho como freelancer com algumas parcerias executando tarefas em todas as áreas citadas, com

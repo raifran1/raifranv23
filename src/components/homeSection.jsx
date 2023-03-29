@@ -3,6 +3,8 @@ import StorageIcon from '@mui/icons-material/Storage';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import PreviewIcon from '@mui/icons-material/Preview';
 import ViewQuiltIcon from '@mui/icons-material/ViewQuilt';
+import nextSection from '../img/next_section.svg';
+import {Link} from "@mui/material";
 
 export default function HomeSection() {
   return (
@@ -32,6 +34,12 @@ export default function HomeSection() {
           <ViewQuiltIcon className='iconFuncao' />
           <h1 className='textFuncao'>UI para dispositivos móveis </h1>
         </div>
+      </div>
+
+      <div style={{marginTop: 45}}>
+        <Link href='#sobre'>
+          <img src={nextSection} alt='Próximo tópico'/>
+        </Link>
       </div>
     </section>
   )

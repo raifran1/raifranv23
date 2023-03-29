@@ -93,6 +93,13 @@
     .textService {
         font-size: 18px;
     }
+    .iconService {
+        font-size: 45px!important;
+    }
+
+    .textService {
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -103,6 +110,13 @@
     .titleSectionServico {
         font-size: 26px;
     }
+    .iconService {
+        font-size: 40px!important;
+    }
+
+    .textService {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -111,6 +125,10 @@
     }
     .titleSectionServico {
         font-size: 24px;
+    }
+
+    .textService {
+        font-size: 15px;
     }
 
 }

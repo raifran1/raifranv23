@@ -1,5 +1,7 @@
 import '../styles/sobre.css'
 import raifran from '../img/raifran.svg'
+import {Link} from "@mui/material";
+import nextSection from "../img/next_section.svg";
 
 export default function SobreSection() {
   return (
@@ -36,6 +38,12 @@ export default function SobreSection() {
             desenvolvimento mobile, web, UI mobile/web e devops.
           </h2>
         </div>
+      </div>
+
+      <div style={{marginTop: 45}}>
+        <Link href='#servico'>
+          <img src={nextSection} alt='Próximo tópico'/>
+        </Link>
       </div>
     </section>
   )

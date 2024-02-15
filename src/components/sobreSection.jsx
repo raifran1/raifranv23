@@ -14,28 +14,28 @@ export default function SobreSection() {
         </div>
         <div className='divResumo'>
           <h2 className='resumo'>
-            Sou desenvolvedor há 5 anos ativo no mercado. Minha carreira iniciou-se a partir do interesse em saber como
-            funcionavam as cores e elementos bonitos que apareciam na tela de um celular ou computador assim fui atrás de
-            começar pequenas investidas como o curso que fiz em 2018, nele aprendi conceitos básicos de programação
-            utilizando linguagem C++ e conhecimentos em eletrônica consegui prototipar projetos desenvolvidos com Arduino.
+            Atuo como programador e desenvolvedor há 5 anos, desde o início da minha carreira em 2018.
+             Meu interesse inicial em compreender o funcionamento por trás das cores e elementos visuais na tela me 
+             levou a explorar conceitos básicos de programação usando C++, combinados com conhecimentos em eletrônica 
+             para prototipar projetos com Arduino.
             <br />
             <br />
-            No desenvolvimento web iniciei no final do ano de 2018 aprendendo Python e Django, juntamente com o estágio
-            em 2019 consegui diversos conhecimentos práticos, participando do desenvolvimento de várias soluções e
-            durante todo este período de 2019 até hoje trabalho com essa stack no desenvolvimento web.
+            Minha incursão no desenvolvimento web começou no final de 2018, quando aprendi Python e Django.
+            Durante meu estágio em 2019, adquiri vasta experiência participando do desenvolvimento de diversas soluções. 
+            Desde então, venho trabalhando com essa stack no desenvolvimento web, aprimorando minhas habilidades ao longo dos anos.
             <br />
             <br />
-            No Devops iniciei em 2020 onde fiz alguns cursos rápidos e logo em seguida iniciei a prática. Hoje trabalho
-            com servidores utilizando infraestruturas como AWS, Digital Ocean, Ovh, Linode. Aplicando conhecimentos para
-            instalação, migração e manutenção com utilização do Zabbix.
+            Em 2020, adentrei o universo DevOps, realizando cursos rápidos e, em seguida, aplicando meus conhecimentos na prática. 
+            Atualmente, gerencio servidores em diversas infraestruturas, como AWS, Digital Ocean, Ovh e Linode, utilizando ferramentas 
+            como o Zabbix para instalação, migração e manutenção.
             <br />
             <br />
             Com a área Mobile iniciei em 2022, estudei React Native e fiz cursos introdutórios de UI/UX para aplicativos
             facilitando o desenvolvimento das minhas aplicações.
             <br />
             <br />
-            Atualmente trabalho como freelancer com algumas parcerias executando tarefas em todas as áreas citadas, com
-            desenvolvimento mobile, web, UI mobile/web e devops.
+            No campo do desenvolvimento mobile, iniciei em 2022, estudando React Native e aprimorando minha compreensão de UI para aplicativos, facilitando o desenvolvimento de minhas aplicações.
+            Atualmente, atuo como freelancer, estabelecendo parcerias e executando tarefas em todas as áreas mencionadas: desenvolvimento mobile, web, UI mobile e DevOps.
           </h2>
         </div>
       </div>
